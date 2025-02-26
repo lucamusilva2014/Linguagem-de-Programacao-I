@@ -159,7 +159,7 @@ if(numero>10) {
 ## 8)Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo). 
 ```java
 import java.util.*;
-public class Maior{
+public class Positivo{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
@@ -225,7 +225,7 @@ if(media>=6) {
 ## 11)Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu).
 ```java
 import java.util.*;
-public class Nota{
+public class Voto{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
@@ -246,7 +246,7 @@ if(idade<16) {
 ## 12)Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles. 
 ```java
 import java.util.*;
-public class Valor{
+public class Maior{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
@@ -269,7 +269,7 @@ if(valor1>valor2) {
 ## 13)Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
 ```java
 import java.util.*;
-public class Valor{
+public class Crescente{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
@@ -290,7 +290,7 @@ if(valor1>valor2) {
 ## 14)Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
 ```java
 import java.util.*;
-public class Valor{
+public class Xadrez{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
@@ -317,7 +317,7 @@ else {
 ## 15)A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
  ```java
 import java.util.*;
-public class Valor{
+public class Jornada{
 
      public static void main(String []args){
         Scanner sc = new Scanner(System.in);
