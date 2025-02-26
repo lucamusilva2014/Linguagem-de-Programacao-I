@@ -401,15 +401,19 @@ public class Nota{
         double e2 = sc.nextDouble();
         System.out.println("API:");
         double api = sc.nextDouble();
-        
-if(media>=6) {
-    System.out.println("Aprovado");
-       
-}else {
-    System.out.println("Reprovado");
+        System.out.println("x:");
+        double x = sc.nextDouble(); 
+        double y = (p1*0.6 + ((e1+e2)/2)*0.4-5.9);
+        double z = 0;
+       double max= Math.max(y, z);
+    double nota =(p1*0.6+((e1+e2)/2)*0.4)*0.5+(max/y)*(api*0.5)+x;
+            System.out.println("Nota:"+nota);
+    if (nota<6){
+        System.out.println("SUB:");
+        double sub = sc.nextDouble(); 
+      double  total=nota+(sub*0.2);
+        System.out.println("Nota:"+total);
+    }
      }
 }
-}
-
-
 
