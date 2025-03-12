@@ -16,3 +16,17 @@
 
 ### Imagem 5 - Jogos
 ![images (1)](https://github.com/user-attachments/assets/e5d40441-91eb-40a0-9f54-433577534b54)
+
+### Imagem 6 - Flores 
+![download (1)](https://github.com/user-attachments/assets/25475054-e3ba-4b5e-90a1-a37dbf7f6dce)
+
+### Imagem 7 - Times
+![images (2)](https://github.com/user-attachments/assets/37029bef-daa0-43be-b95f-fe8ce5c5fe67)
+
+### Imagem 8-Livros
+![depositphotos_12376816-stock-photo-stack-of-old-books](https://github.com/user-attachments/assets/36545578-0223-47d0-93c4-3c650da7bfc1)
+
+### Imagem 9-Calçados
+![depositphotos_89625510-stock-illustration-woman-shoes-set](https://github.com/user-attachments/assets/3d213545-01c0-49f0-b43e-cd75b9dd05b0)
+### Imagem 10-
+
