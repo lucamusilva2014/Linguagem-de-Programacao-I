@@ -31,5 +31,5 @@
 ### Imagem 10- Instrumentos
 ![gettyimages-461072583-612x612](https://github.com/user-attachments/assets/9765d25d-f4d9-4c8d-a10c-3eb5e9b5d4a8)
 
-## 2.Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos. Sugestão de ferramenta
+## 2.Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos.
 
