@@ -28,5 +28,7 @@
 
 ### Imagem 9-Calçados
 ![depositphotos_89625510-stock-illustration-woman-shoes-set](https://github.com/user-attachments/assets/3d213545-01c0-49f0-b43e-cd75b9dd05b0)
-### Imagem 10-
+### Imagem 10- Instrumentos
+![gettyimages-461072583-612x612](https://github.com/user-attachments/assets/9765d25d-f4d9-4c8d-a10c-3eb5e9b5d4a8)
+
 
