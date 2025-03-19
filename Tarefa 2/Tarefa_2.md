@@ -62,4 +62,5 @@
 ### Instrumento
 ![image](https://github.com/user-attachments/assets/4d2cf6c7-c2eb-4202-a6a4-6b18eebcfd54)
 
+## 3.Implementar, usando a Linguagem Java, as classes modeladas no item 2.
 
