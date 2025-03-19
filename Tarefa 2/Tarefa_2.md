@@ -53,6 +53,13 @@
  ### Time
 ![image](https://github.com/user-attachments/assets/e7bad9f0-59be-4dc6-9ee2-dbff4b6985d7)
 
+### Livro
+![image](https://github.com/user-attachments/assets/c7e9722e-d62a-4879-914c-dfb5772c6ecf)
 
+### Calçados
+![image](https://github.com/user-attachments/assets/0e6263be-866c-44a5-91df-c695376f6872)
+
+### Instrumento
+![image](https://github.com/user-attachments/assets/4d2cf6c7-c2eb-4202-a6a4-6b18eebcfd54)
 
 
