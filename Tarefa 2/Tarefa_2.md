@@ -32,35 +32,8 @@
 ![gettyimages-461072583-612x612](https://github.com/user-attachments/assets/9765d25d-f4d9-4c8d-a10c-3eb5e9b5d4a8)
 
 ## 2.Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos.
-### Carro
-![image](https://github.com/user-attachments/assets/cbaf9257-1701-4cbe-82e0-50dc24912599)
+![image](https://github.com/user-attachments/assets/e3536e58-22e4-4dfc-b34b-d0ade89553b1)
 
-### Pessoa
-![image](https://github.com/user-attachments/assets/bb7ce9f5-047c-4098-8d23-9eabc81f67cb)
-
-### Animal
-![image](https://github.com/user-attachments/assets/4444fc79-d6e8-4a8b-8cca-92c4d31b81b4)
-
-### Perifericos
-![image](https://github.com/user-attachments/assets/f574a421-cbb7-4bb2-8889-c425ce274400)
-
-### Jogo
-![image](https://github.com/user-attachments/assets/2ff98b80-39c0-404a-8066-65b652a773f2)
-
-### Flor
-![image](https://github.com/user-attachments/assets/3191b3a3-ce0b-455b-8d77-5d9be8eb23f8)
-
- ### Time
-![image](https://github.com/user-attachments/assets/e7bad9f0-59be-4dc6-9ee2-dbff4b6985d7)
-
-### Livro
-![image](https://github.com/user-attachments/assets/c7e9722e-d62a-4879-914c-dfb5772c6ecf)
-
-### Calçados
-![image](https://github.com/user-attachments/assets/0e6263be-866c-44a5-91df-c695376f6872)
-
-### Instrumento
-![image](https://github.com/user-attachments/assets/4d2cf6c7-c2eb-4202-a6a4-6b18eebcfd54)
 
 ## 3.Implementar, usando a Linguagem Java, as classes modeladas no item 2.
 ### Carro
