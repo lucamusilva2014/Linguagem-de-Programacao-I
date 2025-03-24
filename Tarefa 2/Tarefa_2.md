@@ -638,3 +638,5 @@ public class Instrumento {
     }
 }
 ```
+## 5 Observar a figura a seguir e implementar uma classe contendo as operações de soma, subtração, multiplicação e divisão. A classe deverá conter os atributos numerador e denominador. O resultado deve ser apresentado no formato de fração simplificada.
+
