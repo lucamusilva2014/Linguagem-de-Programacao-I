@@ -638,6 +638,81 @@ public class Instrumento {
     }
 }
 ```
+## 4.Criar uma classe TestaClasse, contendo: método main,  um objeto de cada classe para teste.  Nesta classe, evocar, pelo menos, dois métodos de cada classe. Além disso, a classe TestaClasse deve conter um menu em que fica em loop, apresentando as opções até que o usuário deseje sair.
+```java
+package org.example;
+
+import java.util.Scanner;
+
+class SomarSubtrair {
+    int somar(int a, int b) {
+        return a + b;
+    }
+
+    int subtrair(int a, int b) {
+        return a - b;
+    }
+}
+
+class MultiplicarDividir {
+    int multiplicar(int a, int b) {
+        return a * b;
+    }
+
+    double dividir(int a, int b) {
+        if (b != 0) {
+            return (double) a / b;
+        } else {
+            System.out.println("Erro: Divisão por zero!");
+            return Double.NaN;
+        }
+    }
+}
+
+public class TestaClasse {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        SomarSubtrair objA = new SomarSubtrair();
+        MultiplicarDividir objB = new MultiplicarDividir();
+        int opcao;
+
+        do {
+            System.out.println("\nMenu:");
+            System.out.println("1. Realizar cálculos com SomarSubtrair (Soma e Subtração)");
+            System.out.println("2. Realizar cálculos com MultiplicarDividir (Multiplicação e Divisão)");
+            System.out.println("3. Sair");
+            System.out.print("Escolha uma opção: ");
+            opcao = scanner.nextInt();
+
+            switch (opcao) {
+                case 1:
+                    System.out.print("Digite o primeiro número: ");
+                    int numA1 = scanner.nextInt();
+                    System.out.print("Digite o segundo número: ");
+                    int numA2 = scanner.nextInt();
+                    System.out.println("Soma: " + objA.somar(numA1, numA2));
+                    System.out.println("Subtração: " + objA.subtrair(numA1, numA2));
+                    break;
+                case 2:
+                    System.out.print("Digite o primeiro número: ");
+                    int numB1 = scanner.nextInt();
+                    System.out.print("Digite o segundo número: ");
+                    int numB2 = scanner.nextInt();
+                    System.out.println("Multiplicação: " + objB.multiplicar(numB1, numB2));
+                    System.out.println("Divisão: " + objB.dividir(numB1, numB2));
+                    break;
+                case 3:
+                    System.out.println("Saindo do programa!");
+                    break;
+                default:
+                    System.out.println("Opção inválida! Tente novamente.");
+            }
+        } while (opcao != 3);
+
+        scanner.close();
+    }
+}
+```
 ## 5 Observar a figura a seguir e implementar uma classe contendo as operações de soma, subtração, multiplicação e divisão. A classe deverá conter os atributos numerador e denominador. O resultado deve ser apresentado no formato de fração simplificada.
 ´´´java
 package org.example;
