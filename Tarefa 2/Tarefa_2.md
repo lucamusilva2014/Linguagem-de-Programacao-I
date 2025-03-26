@@ -790,4 +790,7 @@ public class Fracoes {
 ### 6 Fazer o teste de mesa para o item 5, usando os exemplos da imagem abaixo.
 ![image](https://github.com/user-attachments/assets/00da4a70-4918-4366-9137-c2eff66e8572)
 
+![image](https://github.com/user-attachments/assets/42f26f10-ca63-425c-b461-c8506fbbb480)
+
+
 
