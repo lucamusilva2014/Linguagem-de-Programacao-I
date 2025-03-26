@@ -73,7 +73,7 @@ public class Carro {
         System.out.println(modelo + " Freiou");
     }
 
-    public static void main(String[] args) {
+    public static void main() {
         Scanner scanner = new Scanner(System.in);
         Carro carro = new Carro();
 
@@ -91,8 +91,6 @@ public class Carro {
         carro.ligarmotor();
         carro.acelarar();
         carro.frear();
-
-        scanner.close();
     }
 }
 ```
@@ -133,7 +131,7 @@ public class Pessoa {
         System.out.println(nome + " Programando");
     }
 
-    public static void main(String[] args) {
+    public static void main() {
         Scanner scanner = new Scanner(System.in);
         Pessoa pessoa = new Pessoa();
 
@@ -152,7 +150,6 @@ public class Pessoa {
         pessoa.Estudar();
         pessoa.Programar();
 
-        scanner.close();
     }
 }
 ```
@@ -207,12 +204,10 @@ public class Animal {
         System.out.print("Digite a Idade : ");
         animal.setIdade(scanner.nextInt());
 
-        System.out.println("\nAções da Pessoa:");
+        System.out.println("\nAções do Animal:");
         animal.Comer();
         animal.Dormir();
         animal.Correr();
-
-        scanner.close();
     }
 }
 ```
@@ -271,8 +266,6 @@ public class Periferico {
         periferico.Conectar();
         periferico.Atualizar();
         periferico.Desconectar();
-
-        scanner.close();
     }
 }
 ```
@@ -331,8 +324,6 @@ public class Jogo {
         jogo.Iniciar();
         jogo.Salvar();
         jogo.Encerrar();
-
-        scanner.close();
     }
 }
 ```
@@ -391,8 +382,6 @@ public class Flor {
         flor.Regar();
         flor.Polenizar();
         flor.Florescer();
-
-        scanner.close();
     }
 }
 ```
@@ -452,8 +441,6 @@ public class Time {
         time.Ganhar();
         time.Empatar();
         time.Perder();
-
-        scanner.close();
     }
 }
 ```
@@ -512,8 +499,6 @@ public class Livro {
         livro.Avaliar();
         livro.Emprestar();
         livro.Abrir();
-
-        scanner.close();
     }
 }
 ```
@@ -572,8 +557,6 @@ public class Calcado {
         calcado.Calcar();
         calcado.Andar();
         calcado.Guardar();
-
-        scanner.close();
     }
 }
 ```
@@ -633,13 +616,93 @@ public class Instrumento {
         instrumento.Tocar();
         instrumento.Afinar();
         instrumento.Limpar();
-
-        scanner.close();
     }
 }
 ```
 ## 4.Criar uma classe TestaClasse, contendo: método main,  um objeto de cada classe para teste.  Nesta classe, evocar, pelo menos, dois métodos de cada classe. Além disso, a classe TestaClasse deve conter um menu em que fica em loop, apresentando as opções até que o usuário deseje sair.
 ```java
+package org.example;
+import java.util.Scanner;
+
+
+public class TesteClasse {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Boolean sair = false;
+
+        Animal animal = new Animal();
+        Calcado calcado = new Calcado();
+        Carro carro = new Carro();
+        Flor  flor = new  Flor();
+        Instrumento instrumento = new Instrumento();
+        Jogo jogo = new Jogo();
+        Livro  livro = new Livro();
+        Time  time = new Time();
+        Periferico periferico= new Periferico();
+        Pessoa pessoa = new Pessoa();
+
+        while(!sair) {
+            System.out.println("\nEscolha uma Opção ");
+            System.out.println("1 - Classe Animal");
+            System.out.println("2 - Classe Calcado");
+            System.out.println("3 - Classe Carro");
+            System.out.println("4 - Classe Flor");
+            System.out.println("5 - Classe Instrumento");
+            System.out.println("6 - Classe Jogo");
+            System.out.println("7 - Classe Livro");
+            System.out.println("8 - Classe Pessoa");
+            System.out.println("9 - Classe Time");
+            System.out.println("10 - Classe Periferico");
+            System.out.println("0 - Sair");
+            System.out.println("Digite sua Opção:");
+            int opcao = scanner.nextInt();
+
+            switch(opcao) {
+                case 1:
+                    Animal.main();
+                break;
+                case 2:
+                    Calcado.main();
+                break;
+                case 3:
+                    Carro.main();
+                    break;
+                case 4:
+                    Flor.main();
+                    break;
+                case 5:
+                    Instrumento.main();
+                    break;
+                case 6:
+                    Jogo.main();
+                    break;
+                case 7:
+                    Livro.main();
+                    break;
+                case 8:
+                    Pessoa.main();
+                    break;
+                case 9:
+                    Time.main();
+                    break;
+                case 10:
+                    Periferico.main();
+                    break;
+                case 0:
+                    sair = true;
+                    System.out.println("Saiu do programa");
+                    break;
+                default:
+                    System.out.println("Opção invalida");
+
+
+            }
+        }
+        scanner.close();
+    }
+
+}
+
 
 
 
