@@ -640,34 +640,7 @@ public class Instrumento {
 ```
 ## 4.Criar uma classe TestaClasse, contendo: método main,  um objeto de cada classe para teste.  Nesta classe, evocar, pelo menos, dois métodos de cada classe. Além disso, a classe TestaClasse deve conter um menu em que fica em loop, apresentando as opções até que o usuário deseje sair.
 ```java
-package org.example;
 
-import java.util.Scanner;
-
-class SomarSubtrair {
-    int somar(int a, int b) {
-        return a + b;
-    }
-
-    int subtrair(int a, int b) {
-        return a - b;
-    }
-}
-
-class MultiplicarDividir {
-    int multiplicar(int a, int b) {
-        return a * b;
-    }
-
-    double dividir(int a, int b) {
-        if (b != 0) {
-            return (double) a / b;
-        } else {
-            System.out.println("Erro: Divisão por zero!");
-            return Double.NaN;
-        }
-    }
-}
 
 
 ```
