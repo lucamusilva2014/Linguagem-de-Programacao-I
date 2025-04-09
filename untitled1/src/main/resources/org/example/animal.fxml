@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AnimalController">
+   <children>
+      <Label fx:id="lb_carro" alignment="CENTER" layoutX="135.0" layoutY="20.0" prefHeight="17.0" prefWidth="309.0" text="Animal">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_voltar" layoutX="207.0" layoutY="344.0" mnemonicParsing="false" onAction="#MostraTelaMenu" prefHeight="25.0" prefWidth="149.0" text="Retornar ao Menu" />
+      <TextField fx:id="tf_nome" layoutX="72.0" layoutY="60.0" prefHeight="25.0" prefWidth="436.0" promptText="Digite o nome" />
+      <TextField fx:id="tf_especie" layoutX="72.0" layoutY="111.0" prefHeight="25.0" prefWidth="436.0" promptText="Digite a Espécie" />
+      <TextField fx:id="tf_peso" layoutX="72.0" layoutY="162.0" prefHeight="25.0" prefWidth="436.0" promptText="Digite o Peso" />
+      <Button fx:id="bt_salvar" layoutX="207.0" layoutY="216.0" mnemonicParsing="false" onAction="#CadastrarAnimal" prefHeight="25.0" prefWidth="149.0" text="Salvar" />
+      <Button fx:id="bt_dormir" layoutX="401.0" layoutY="282.0" mnemonicParsing="false" onAction="#Dormir" prefHeight="25.0" prefWidth="149.0" text="DORMIR" />
+      <Button fx:id="bt_comer" layoutX="207.0" layoutY="282.0" mnemonicParsing="false" onAction="#Comer" prefHeight="25.0" prefWidth="149.0" text="COMER" />
+      <Button fx:id="bt_correr" layoutX="22.0" layoutY="282.0" mnemonicParsing="false" onAction="#Correr" prefHeight="25.0" prefWidth="149.0" text="CORRER" />
+   </children>
+</AnchorPane>
