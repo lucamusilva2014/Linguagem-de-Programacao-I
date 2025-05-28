@@ -1,5 +1,5 @@
-Create database at4;
-Use at4;
+Create database classes;
+Use classes;
 CREATE TABLE animais (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
