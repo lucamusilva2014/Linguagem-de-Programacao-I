@@ -7,8 +7,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
+import org.example.App;
 import org.example.Classe.Animal;
 import org.example.DAO.AnimalDAO;
+import org.example.App;
+
+import java.io.IOException;
 
 import static org.example.ExibirAlerta.exibirAlerta;
 
@@ -19,6 +23,8 @@ public class AnimalController {
     @FXML
     private Button btnAlterar;
 
+    @FXML
+    private Button bt_menu;
     @FXML
     private TableColumn<Animal, Integer> colId;
 
@@ -117,6 +123,12 @@ public class AnimalController {
         else {
             exibirAlerta(Alert.AlertType.WARNING, "Atenção", "Selecione um animal para Alterar.");
         }
+
+
+    }
+    @FXML
+    void MostrarMenu(ActionEvent event) throws IOException {
+        App.setRoot("menu");
 
     }
 }

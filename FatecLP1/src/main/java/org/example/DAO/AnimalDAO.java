@@ -17,7 +17,7 @@ public class AnimalDAO {
             stmt.setFloat(3, animal.getPeso());
             stmt.executeUpdate();
 
-            // Obter o ID gerado pelo banco
+
             try (ResultSet generatedKeys = stmt.getGeneratedKeys()) {
                 if (generatedKeys.next()) {
                     animal.setId(generatedKeys.getInt(1));

@@ -6,7 +6,6 @@ public class Animal {
     private String especie;
     private float peso;
 
-    // Construtor
     public Animal(int id, String nome, String especie, float peso) {
         this.id = id;
         this.nome = nome;
@@ -14,7 +13,7 @@ public class Animal {
         this.peso = peso;
     }
 
-    // Getters e Setters
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 

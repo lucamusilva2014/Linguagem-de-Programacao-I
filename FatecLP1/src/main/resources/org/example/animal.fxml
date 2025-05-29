@@ -58,5 +58,6 @@
          <Button fx:id="btnAtualizar" layoutX="142.0" layoutY="170.0" onAction="#Atualizar" text="Atualizar" />
       <Button fx:id="btnExcluir1" layoutX="220.0" layoutY="170.0" onAction="#Excluir" text="Excluir" />
          <Button fx:id="btnAlterar" layoutX="79.0" layoutY="170.0" onAction="#Alterar" text="Alterar" />
+      <Button fx:id="bt_menu" layoutX="404.0" layoutY="13.0" mnemonicParsing="false" onAction="#MostrarMenu" text="Menu" />
     </children>
 </AnchorPane>
