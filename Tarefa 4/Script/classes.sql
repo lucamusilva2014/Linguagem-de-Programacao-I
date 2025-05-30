@@ -6,7 +6,7 @@ CREATE TABLE animais (
     especie VARCHAR(50) NOT NULL,
     peso FLOAT NOT NULL
 );
-CREATE TABLE pessoas (
+CREATE TABLE pessoa (
     cpf VARCHAR(11) PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     idade INT NOT NULL

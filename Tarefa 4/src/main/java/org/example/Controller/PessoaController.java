@@ -58,8 +58,7 @@ public class PessoaController {
         Pessoa selecionado = tablePessoas.getSelectionModel().getSelectedItem();
         if (selecionado != null) {
             txtNome.setText(selecionado.getNome());
-            txtCpf.setEditable(false);
-            txtCpf.setDisable(true);
+            txtCpf.setText(selecionado.getCpf());
             txtIdade.setText(String.valueOf(selecionado.getIdade()));
         } else {
             exibirAlerta(Alert.AlertType.WARNING, "Atenção", "Selecione uma pessoa para alterar.");
@@ -67,7 +66,7 @@ public class PessoaController {
     }
 
     @FXML
-    void Atualizar(ActionEvent event) {
+    void Atualizar(ActionEvent event) throws SQLException {
         Pessoa selecionado = tablePessoas.getSelectionModel().getSelectedItem();
         if (selecionado != null) {
             selecionado.setNome(txtNome.getText());
@@ -79,8 +78,6 @@ public class PessoaController {
                 exibirAlerta(Alert.AlertType.INFORMATION, "Sucesso", "Pessoa atualizada com sucesso!");
             } catch (NumberFormatException e) {
                 exibirAlerta(Alert.AlertType.ERROR, "Erro", "Idade deve ser um número válido.");
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
             }
         } else {
             exibirAlerta(Alert.AlertType.WARNING, "Atenção", "Selecione uma pessoa para atualizar.");
@@ -100,7 +97,7 @@ public class PessoaController {
     }
 
     @FXML
-    void Salvar(ActionEvent event) {
+    void Salvar(ActionEvent event) throws SQLException {
         try {
             String nome = txtNome.getText();
             String cpf = txtCpf.getText();
@@ -114,7 +111,7 @@ public class PessoaController {
             txtCpf.clear();
             txtIdade.clear();
             exibirAlerta(Alert.AlertType.INFORMATION, "Sucesso", "Pessoa salva com sucesso!");
-        } catch (NumberFormatException | SQLException e) {
+        } catch (NumberFormatException e) {
             exibirAlerta(Alert.AlertType.ERROR, "Erro", "Preencha todos os campos corretamente!");
         }
     }
