@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="354.0" prefWidth="587.0" style="-fx-border-color: #333; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller.MenuController">
+    <children>
+        <Button layoutX="187.0" layoutY="2.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="214.0" text="MENU DE CLASSES" style="-fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 5;" />
+        <Button fx:id="btcarro" layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onAction="#MostrarTelaCarro" prefHeight="35.0" prefWidth="110.0" text="CARROS" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_animais" layoutX="244.0" layoutY="70.0" mnemonicParsing="false" onAction="#MostrarAnimais" prefHeight="35.0" prefWidth="110.0" text="ANIMAIS" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_perifericos" layoutX="10.0" layoutY="205.0" mnemonicParsing="false" onAction="#MostrarPerifericos" prefHeight="35.0" prefWidth="110.0" text="PERIFÉRICOS" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_flor" layoutX="244.0" layoutY="135.0" mnemonicParsing="false" onAction="#MostrarFlores" prefHeight="35.0" prefWidth="110.0" text="FLORES" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_times" layoutX="473.0" layoutY="70.0" mnemonicParsing="false" onAction="#MostrarTimes" prefHeight="35.0" prefWidth="110.0" text="TIMES" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_pessoa" layoutX="10.0" layoutY="135.0" mnemonicParsing="false" onAction="#MostrarPessoas" prefHeight="35.0" prefWidth="110.0" text="PESSOAS" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_livro" layoutX="244.0" layoutY="276.0" mnemonicParsing="false" onAction="#MostrarLivros" prefHeight="35.0" prefWidth="110.0" text="LIVROS" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_jogo" layoutX="244.0" layoutY="205.0" mnemonicParsing="false" onAction="#MostrarJogo" prefHeight="35.0" prefWidth="110.0" text="JOGO" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_calcado" layoutX="473.0" layoutY="205.0" mnemonicParsing="false" onAction="#MostrarCalcado" prefHeight="35.0" prefWidth="110.0" text="CALÇADO" style="-fx-font-size: 13px;" />
+        <Button fx:id="bt_instrumento" alignment="CENTER" contentDisplay="CENTER" layoutX="473.0" layoutY="128.0" mnemonicParsing="false" onAction="#MostrarInstrumento" prefHeight="35.0" prefWidth="110.0" text="INSTRUMENTO" style="-fx-font-size: 13px;" />
+    </children>
+</Pane>
