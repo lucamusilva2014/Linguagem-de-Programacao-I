@@ -11,24 +11,24 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller.AnimalController">
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Controller.LivroController">
     <children>
         <!-- Título -->
-        <Label layoutX="20" layoutY="10" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Cadastro de Animal" />
+        <Label layoutX="20" layoutY="10" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Cadastro de Livros" />
 
         <!-- Área de Cadastro -->
         <VBox layoutX="20" layoutY="50" spacing="10">
             <HBox spacing="10">
-                <Label text="Nome:" />
-                <TextField fx:id="txtNome" prefWidth="200" />
+                <Label text="Titulo" />
+                <TextField fx:id="txttitulo" prefWidth="200" />
             </HBox>
             <HBox spacing="10">
-                <Label text="Espécie:" />
-                <TextField fx:id="txtEspecie" prefWidth="200" />
+                <Label text="Autor" />
+                <TextField fx:id="txtautor" prefWidth="200" />
             </HBox>
             <HBox spacing="10">
-                <Label text="Peso (kg):" />
-                <TextField fx:id="txtPeso" prefWidth="100" />
+                <Label text="Ano" />
+                <TextField fx:id="txtAno" prefWidth="100" />
             </HBox>
         </VBox>
 
@@ -36,7 +36,7 @@
         <VBox layoutX="287.0" layoutY="40.0" spacing="10">
             <ImageView fx:id="imageView" fitHeight="150" fitWidth="150">
                 <image>
-                    <Image url="@Imagens/animais.jpg" />
+                    <Image url="@Imagens/livros.jpg" />
                 </image>
             </ImageView>
         </VBox>
@@ -47,12 +47,12 @@
         </HBox>
 
         <!-- Tabela de Listagem -->
-        <TableView fx:id="tableAnimais" layoutX="20" layoutY="220" prefHeight="200" prefWidth="450">
+        <TableView fx:id="tableLivro" layoutX="20" layoutY="220" prefHeight="200" prefWidth="450">
             <columns>
-                <TableColumn fx:id="colId" prefWidth="50" text="ID" />
-                <TableColumn fx:id="colNome" prefWidth="150" text="Nome" />
-                <TableColumn fx:id="colEspecie" prefWidth="100" text="Espécie" />
-                <TableColumn fx:id="colPeso" prefWidth="80" text="Peso" />
+                <TableColumn fx:id="colId" prefWidth="50" text="ISBN" />
+                <TableColumn fx:id="colTitulo" prefWidth="150" text="Titulo" />
+                <TableColumn fx:id="colAutor" prefWidth="100" text="Autor" />
+                <TableColumn fx:id="colAno" prefWidth="149.0" text="Ano" />
             </columns>
         </TableView>
          <Button fx:id="btnAtualizar" layoutX="142.0" layoutY="170.0" onAction="#Atualizar" text="Atualizar" />
