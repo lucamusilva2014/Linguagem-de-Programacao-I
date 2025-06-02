@@ -46,43 +46,47 @@ public class MenuController {
     }
 
     @FXML
-    void MostrarCalcado(ActionEvent event) {
+    void MostrarCalcado(ActionEvent event) throws IOException {
+        App.setRoot("calcado");
 
     }
 
     @FXML
-    void MostrarFlores(ActionEvent event) {
+    void MostrarFlores(ActionEvent event) throws IOException {
+    App.setRoot("flor");
 
     }
 
     @FXML
-    void MostrarInstrumento(ActionEvent event) {
+    void MostrarInstrumento(ActionEvent event) throws IOException {
+        App.setRoot("instrumento");
 
     }
 
     @FXML
-    void MostrarJogo(ActionEvent event) {
+    void MostrarJogo(ActionEvent event) throws IOException {
+    App.setRoot("jogo");
+    }
+
+    @FXML
+    void MostrarLivros(ActionEvent event) throws IOException {
+        App.setRoot("livro");
 
     }
 
     @FXML
-    void MostrarLivros(ActionEvent event) {
-
+    void MostrarPerifericos(ActionEvent event) throws IOException {
+        App.setRoot("periferico");
     }
 
     @FXML
-    void MostrarPerifericos(ActionEvent event) {
-
+    void MostrarTelaCarro(ActionEvent event) throws IOException {
+        App.setRoot("carro");
     }
 
     @FXML
-    void MostrarTelaCarro(ActionEvent event) {
-
-    }
-
-    @FXML
-    void MostrarTimes(ActionEvent event) {
-
+    void MostrarTimes(ActionEvent event) throws IOException {
+        App.setRoot("time");
     }
 
     @FXML
